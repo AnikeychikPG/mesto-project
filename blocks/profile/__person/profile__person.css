@@ -1,0 +1,14 @@
+.profile__person {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 619px) {
+  /* меняем row на column */
+  .profile__person {
+    flex-direction: column;
+    gap: 27px;
+    position: relative;
+  }
+}

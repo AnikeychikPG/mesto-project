@@ -1,0 +1,20 @@
+.profile__edit-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+  transform: translateY(-1px);
+}
+
+@media screen and (max-width: 619px) {
+  /* уменьшаем размер кнопки */
+  .profile__edit-button {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 198px;
+    top: 155px;
+  }
+}

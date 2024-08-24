@@ -1,0 +1,8 @@
+.photo-grid__element-like {
+  /*some code */
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #ffffff;
+  transform: translate(-5px, 2px);
+}

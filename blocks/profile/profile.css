@@ -1,0 +1,22 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 680px) {
+  /* меняем с row на column */
+  .profile {
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  /* уменьшаем шрифт */
+  .profile {
+    gap: 32px;
+  }
+}
