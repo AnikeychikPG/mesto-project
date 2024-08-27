@@ -3,7 +3,6 @@
   font-weight: 400;
   line-height: 21.78px;
   margin: 0;
-
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -13,6 +12,7 @@
   /* уменьшаем размер шрифта */
   .profile__job {
     font-size: 14px;
+    max-width: 190px;
     font-weight: 400;
     line-height: 16.94px;
   }

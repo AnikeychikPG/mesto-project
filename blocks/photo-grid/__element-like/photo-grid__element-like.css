@@ -5,4 +5,11 @@
   border: none;
   background-color: #ffffff;
   transform: translate(-5px, 2px);
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.photo-grid__element-like:hover {
+  opacity: 0.5;
 }

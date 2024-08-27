@@ -13,6 +13,7 @@
   /* уменьшаем размер шрифта */
   .profile__name {
     font-size: 27px;
+    max-width: 190px;
     font-weight: 500;
     line-height: 32.68px;
   }
